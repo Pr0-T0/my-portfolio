@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://sarathkumar.vercel.app"),
+  verification: {
+    google : "rppGcg4--pp1NnN24JnSmabmTrcmpsidHKP16G48PDY",
+  },
 
   title: {
     default: "Sarathkumar",
