@@ -1,26 +1,26 @@
-import Section from "./components/section";
+import AboutSection from "./components/aboutSection";
+import EducationSection from "./components/educationSection";
+import SkillsSection from "./components/skillsSection";
+import TopSection from "./components/topSection";
+import WorksSection from "./components/worksSection";
 
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-zinc-50 dark:bg-black">
-      <main className="mx-auto w-full max-w-3xl px-6 py-32 sm:px-10">
-        {/* Hero */}
-        <section className="mb-32">
-          <div className="flex h-64 items-center justify-center rounded-xl bg-zinc-900 dark:bg-zinc-800">
-            <span className="text-lg font-medium text-white">
-              HERO
-            </span>
-          </div>
-        </section>
-
-        {/* Main sections */}
-        <div className="space-y-32">
-          <Section title="ABOUT" color="bg-blue-500" />
-          <Section title="PROJECTS" color="bg-emerald-500" />
-          <Section title="EXPERIENCE" color="bg-purple-500" />
-          <Section title="CONTACT" color="bg-rose-500" />
-        </div>
+    <div className="min-h-screen bg-black text-zinc-100">
+      <main
+        className="
+          mx-auto w-full
+          max-w-170
+          px-4 py-20
+          sm:px-6
+        "
+      >
+        <TopSection />
+        <AboutSection />
+        <EducationSection/>
+        <SkillsSection />
+        <WorksSection />
       </main>
     </div>
   );
