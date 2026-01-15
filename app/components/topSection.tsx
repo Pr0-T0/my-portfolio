@@ -42,18 +42,22 @@ export default function TopSection() {
             icon={<Mail/>} 
         />
 
-        {/* Resume grows */}
-        <button
-          className="
-            flex-1 sm:flex-none
-            rounded-xl
-            border border-zinc-700
-            px-4 py-2 text-sm
-            transition hover:bg-zinc-800
-          "
-        >
-          Resume
-        </button>
+        <a
+            href="https://drive.google.com/file/d/1PBWwx8WqvESbOuXSJnOOJm0BpOxAMUD3/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+                flex-1 sm:flex-none
+                text-center
+                rounded-xl
+                border border-zinc-700
+                px-4 py-2 text-sm
+                transition hover:bg-zinc-800
+            "
+            >
+            Resume
+        </a>
+
       </div>
     </section>
   );
