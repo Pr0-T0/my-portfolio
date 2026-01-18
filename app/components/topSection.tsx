@@ -17,7 +17,7 @@ export default function TopSection() {
         </div>
 
         <div className="leading-tight">
-          <p className="text-base font-medium">Sarathkumar</p>
+          <p className="text-base font-medium">Sarathkumar K</p>
           <p className="text-sm text-zinc-400">
             Still learning, always building
           </p>
