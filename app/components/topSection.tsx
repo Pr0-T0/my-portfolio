@@ -43,7 +43,7 @@ export default function TopSection() {
         />
 
         <a
-            href="https://drive.google.com/file/d/1PBWwx8WqvESbOuXSJnOOJm0BpOxAMUD3/view?usp=sharing"
+            href="/resume/Sarathkumar.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="
